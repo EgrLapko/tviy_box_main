@@ -1,4 +1,14 @@
-@import "layout/header";
+@import "base";
+
+@font-face {
+  font-family: GTWalsheim;
+  src: url("fonts/gt-walsheim-regular.ttf");
+}
+
+p, a, button {
+  font-family: GTWalsheim;
+  font-size: 15px;
+}
 
 * {
   margin: 0;
